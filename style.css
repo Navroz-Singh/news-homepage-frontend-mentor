@@ -1,0 +1,194 @@
+*{
+    font-family: 'Inter';
+    font-size: 18px;
+    scrollbar-color: hsl(5, 85%, 63%) white  ;
+    scroll-behavior:smooth;
+}
+
+
+.header{
+    margin: 15px 30px 23px 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logosvg{
+    cursor: pointer;
+}
+
+.helpbar{
+    color: hsl(240, 2%, 55%);
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home, .new, .popular, .trending, .categories{
+    cursor: pointer;
+}
+
+.home:hover{
+    color:hsl(5, 85%, 63%);
+}
+.new:hover{
+    color:hsl(5, 85%, 63%);
+}
+.popular:hover{
+    color:hsl(5, 85%, 63%);
+}
+.trending:hover{
+    color:hsl(5, 85%, 63%);
+}
+.categories:hover{
+    color:hsl(5, 85%, 63%);
+}
+
+.body{
+    margin:40px 30px;
+    display: flex;
+    gap:20px;
+}
+
+.left{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 411px 300px;
+}
+
+.bodyimage{
+    grid-column:  1 / span 2;
+}
+
+.futureweb{
+    margin: 25px 50px 0 0 ;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 1000;
+}
+
+.promise{
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promise .para{
+    color: hsl(225, 2%, 39%); 
+    font-weight: 450;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.readmore{
+    cursor: pointer;
+    margin: 0px 277px 50px 0;
+    padding: 20px 24px 19px 49px;
+    background-color: hsl(5, 85%, 63%);
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: all 0.25s;
+}
+
+.readmore:hover{
+    background-color: black;
+    color:hsl(36, 100%, 99%);
+}
+
+.right{
+    background-color: hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%);
+    display:grid;
+    height: 600px;
+    grid-template-rows:100px 200px 200px 200px ;
+    padding:40px 30px;
+}
+
+
+.right .new{
+    color:hsl(35, 77%, 62%);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cardcont{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.cardcont .cardhead{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    transition:all 0.2s ease-out;
+}
+
+.cardcont .cardhead:hover{
+    color:hsl(35, 77%, 62%);
+}
+
+.cardcont .carddesc{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.cardcont:not(:last-child)::after {    /* this is a pseudo element, learn more about it*/
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: rgb(217, 215, 215);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    margin:40px 30px;
+    justify-content: space-between;
+}
+
+.botcard{
+    display: flex;
+    gap:20px;
+    width:400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+
+.content .number{
+    font-size: 34px;
+    font-weight: 600;
+    color: hsl(5, 85%, 63%);
+}
+
+.contenthead{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contenthead:hover{
+    color:hsl(5, 85%, 63%)
+}
+
+.contentdesc{
+    font-size: 17px;
+    color:hsl(220, 1%, 52%);
+}
+
+
+
+
+
+
+
+
+
+
